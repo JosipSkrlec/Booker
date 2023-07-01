@@ -1,0 +1,12 @@
+using UnityEngine;
+#NOTRIM#
+namespace JS.Booker.Enums
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public enum #SCRIPTNAME# : byte
+    {
+       #NOTRIM#
+    }
+}

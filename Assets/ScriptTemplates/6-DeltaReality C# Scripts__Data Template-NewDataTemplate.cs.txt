@@ -1,0 +1,13 @@
+using System;
+#NOTRIM#
+namespace JS.Booker.Datas
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    [Serializable]
+    public class #SCRIPTNAME#
+    {
+       #NOTRIM#
+    }
+}

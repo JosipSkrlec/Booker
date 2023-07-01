@@ -1,0 +1,15 @@
+using Divit.Utils;
+#NOTRIM#
+namespace JS.Booker.Events
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class #SCRIPTNAME# : BaseEvent
+    {
+        public #SCRIPTNAME#()
+        {
+            #NOTRIM#
+        }
+    }
+}

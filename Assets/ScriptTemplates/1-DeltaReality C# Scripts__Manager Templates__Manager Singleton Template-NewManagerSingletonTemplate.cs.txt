@@ -1,0 +1,20 @@
+using Divit.Utils;
+#NOTRIM#
+namespace JS.Booker.Managers
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class #SCRIPTNAME# : Singleton<#SCRIPTNAME#>
+    {        
+        protected override void Initialize()
+        {
+            base.Initialize();
+        }
+        #NOTRIM#
+        protected override void Cleanup()
+        {
+            base.Cleanup();
+        }
+    }
+}

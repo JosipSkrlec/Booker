@@ -1,0 +1,32 @@
+using DeltaReality.StateMachine;
+using UnityEngine;
+#NOTRIM#
+namespace JS.Booker.States
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class #SCRIPTNAME# : StateBase<ApplicationStates>
+    {
+        #NOTRIM#
+        public override void Enter(StateBase<ApplicationStates> fromState)
+        {
+            gameObject.SetActive(true);
+        }
+        #NOTRIM#
+        public override void Exit(StateBase<ApplicationStates> toState)
+        {
+            gameObject.SetActive(false);
+        }
+        #NOTRIM#
+        public override ApplicationStates GetStateType()
+        {
+            return ApplicationStates.YOUR_APPLICATION_STATE;
+        }
+        #NOTRIM#
+        public override void InitializeState()
+        {
+            gameObject.SetActive(false);
+        }
+    }
+}

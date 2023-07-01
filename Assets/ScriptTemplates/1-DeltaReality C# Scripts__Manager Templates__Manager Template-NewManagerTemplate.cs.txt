@@ -1,0 +1,21 @@
+using UnityEngine;
+#NOTRIM#
+namespace JS.Booker.Managers
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+        void Start()
+        {
+        #NOTRIM#
+        }
+        #NOTRIM#
+        void Update()
+        {
+        #NOTRIM#
+        }
+    }
+}
+

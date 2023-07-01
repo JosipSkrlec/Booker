@@ -1,0 +1,13 @@
+using UnityEngine;
+#NOTRIM#
+namespace JS.Booker.ScriptableObjects
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    [CreateAssetMenu(fileName = "#SCRIPTNAME#_", menuName = "Booker_ScriptableObjects/#SCRIPTNAME#", order = 0)]
+    public class #SCRIPTNAME# : ScriptableObject
+    {
+        #NOTRIM#
+    }
+}
