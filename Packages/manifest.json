@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.deltareality.demigiant-dotween": "1.2.705",
+    "com.deltareality.figna-to-unity-animation": "1.0.0-beta.3",
+    "com.deltareality.generic-state-machine": "1.0.4",
     "com.unity.collab-proxy": "1.17.7",
     "com.unity.feature.2d": "1.0.0",
     "com.unity.ide.rider": "3.0.18",
@@ -41,5 +44,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "delta",
+      "url": "http://packages.deltareality.com:20003",
+      "scopes": [
+        "com.deltareality"
+      ]
+    }
+  ]
 }

@@ -1,5 +1,56 @@
 {
   "dependencies": {
+    "com.deltareality.demigiant-dotween": {
+      "version": "1.2.705",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://packages.deltareality.com:20003"
+    },
+    "com.deltareality.events": {
+      "version": "1.0.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://packages.deltareality.com:20003"
+    },
+    "com.deltareality.figna-to-unity-animation": {
+      "version": "1.0.0-beta.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.deltareality.events": "1.0.4",
+        "com.deltareality.generic-state-machine": "1.0.4",
+        "com.deltareality.odin-inspector": "1.0.0",
+        "com.deltareality.singleton": "1.0.3",
+        "com.deltareality.demigiant-dotween": "1.2.705"
+      },
+      "url": "http://packages.deltareality.com:20003"
+    },
+    "com.deltareality.generic-state-machine": {
+      "version": "1.0.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.deltareality.singleton": "1.0.3",
+        "com.deltareality.events": "1.0.4"
+      },
+      "url": "http://packages.deltareality.com:20003"
+    },
+    "com.deltareality.odin-inspector": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://packages.deltareality.com:20003"
+    },
+    "com.deltareality.singleton": {
+      "version": "1.0.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://packages.deltareality.com:20003"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.9",
       "depth": 1,
